@@ -1,2 +1,4 @@
-# qt-snake
-a qt-based snake implementation
+snake-game
+==========
+
+A snake game based on Qt.
