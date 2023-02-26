@@ -104,6 +104,8 @@ void GameController::gameOver()
 
         snake = new Snake(*this);
         scene.addItem(snake);
+	    Wall *w1 = new Wall(-50, -30, 10, 60);
+        scene.addItem(w1);
         addNewFood();
     } else {
         exit(0);
